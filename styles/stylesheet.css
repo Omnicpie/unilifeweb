@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*general page setup*/
+body{
+	background-color:var(--background-colour);
+	margin: 0;
+	font-family: Georgia, serif;
+ color:var(--text-colour);
+}
+header {
+   position: fixed;
+    height: 30pt;
+    width: 100%;
+    text-align: center;
+    background-color: var(--header-colour);
+    margin: 0;
+    color: var(--text-colour);
+    display: block;
+    z-index: 999;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+}
+
+ul{
+  list-style-type: none;
+    margin: 0pt -7.6%;
+    padding: 0;
+    height: 100%;
+}
+.imagelogo{
+	height:30pt;
+}
+li{
+      display: inline-block;
+    vertical-align: middle;
+    font-size: 18pt;
+    height: 30pt;
+    color: var(--text-colour);
+    margin-right: 5pt;
+    margin-top: 0pt;
+}
+a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: var(--text-colour);
+    height: 100%;
+    font-size:9pt;
+}
+p{
+	color:var(--text-colour);
+	margin-left: 5pt;
+}
+.posts{
+	width: 60%;
+	margin: auto;
+}
+.post{
+	border: 1px solid black;
+	height: fit-content;
+	overflow: hidden;
+}
+.dateinfo, .details{
+	color:var(--text-colour);
+}
+.dateinfo{
+	text-align: left;
+	padding-left: 1%;
+	font-size: 8pt;
+}
+.userinfo{
+    text-align: left;
+    padding-left: 5pt;
+    font-size:18pt;
+    color:var(--text-colour);
+	width: 93%;
+	float:left;
+}
+.details{
+	padding: 15pt;
+	text-align: left;
+}
+.logo{
+	height: 25pt;
+	margin-left: 5pt;
+}
+
+#navigation {
+float:right;
+width:max-content;
+margin:8pt;
+padding:0;
+}
+.navigation-sub {
+float:left;
+cursor:pointer;
+color:var(--text-colour);
+font-size:16px;
+background-color:var(--header-colour);
+margin:0;
+}
+.navigation-sub:hover {
+/*background-color:#C66;*/
+}
+.navigation-sub:active {
+background-color:#eeeeee;
+}
+.navigation-dropdown {
+position: inherit;
+top: 30pt;
+left: 80.5%;
+background-color:#eeeeee;
+border:#272626 4px solid;
+margin:0;
+/*padding:15px 15px 15px 30px;*/
+/*This here*/
+-webkit-transition: 0.25s ease-out;
+-moz-transition: 0.125s ease-out;
+-ms-transition: 0.125s ease-out;
+transition: 0.125s ease-out;
+}
+.hide {
+opacity: 0;
+height: 0 !important;
+}
+#request{
+    width: 200pt;
+    border: 1px solid #000;
+    height: 50pt;
+}
+#loading{
+    height:100%;
+}
+#myInput {
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-position: 7pt 4pt;
+    background-repeat: no-repeat;
+    width: 30%;
+    font-size: 10pt;
+    padding: 6pt 20pt 6pt 40pt;
+    border: 1px solid #ddd;
+    margin-top: 1.5pt;
+}
+#likes, #ppost{
+width:49%;
+float:left;
+}
+#likes{
+font-size:11pt;
+}
+#ppost{
+text-align:right;
+padding-left:0;
+padding-right:1%;
+height:13pt;
+}

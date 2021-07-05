@@ -1,0 +1,17 @@
+button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10pt 0;
+    background: none;
+    color: var(--text-colour);
+    border: 0;
+    margin-bottom:5pt;
+    font-size: 1em;
+}
+button:hover{
+    background-color:var(--lighter-head);
+}
+.active{
+    background-color:var(--lighter-head);
+}
