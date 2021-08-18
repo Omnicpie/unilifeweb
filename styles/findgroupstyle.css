@@ -1,0 +1,84 @@
+.flex{
+    display: flex;
+    flex-grow: 2;
+}
+.left, .right{
+    float: left;
+}
+.left{
+    width:20%;
+    border-right:1px solid var(--header-colour);
+}
+.right{
+    width:80%;
+}
+.personalgroups{
+    text-align:center;
+    border-collapse:collapse;
+}
+.createGroup{
+    font-size:1em;
+    padding:5pt;
+    border: 2px solid var(--lighter-head);
+    background-color: var(--lighter-head);
+    border-radius:19px;
+    margin:auto;
+    width: 65%;
+    text-align: center;
+    display:block;
+    height:max-content;
+    margin-top:0;
+}
+#side{
+  background-color:var(--accent-colour);
+  padding:5pt;
+  border-radius: 45%;
+  margin-right:5pt;
+}
+.createGroup:hover{
+  background-color:var(--accent-colour);
+  border: 2px solid var(--accent-colour);
+}
+.group{
+  border-collapse: collapse;
+  border-radius:10px;
+  padding:5pt 0;
+  margin-left:2pt;
+}
+.group:hover{
+  background-color:var(--lighter-head);
+}
+#verified{
+  background-color:var(--other-accent);
+  margin-left:1pt;
+  border-radius:45%;
+}
+.groupRec{
+    width:60%;
+    display:flex;
+    margin:auto;
+    border:1px solid;
+}
+.info{
+    width:70%;
+    margin-left:10%;
+}
+.join{
+    display:flex; 
+    flex-direction:column;
+    justify-content:center; 
+    height:auto; 
+    width:20%;
+    text-align:center;
+}
+.joinbutton{
+    background-color:var(--accent-colour);
+    border-radius:10px;
+    padding:5pt;
+    width:max-content;
+    height:max-content;
+    margin:auto;
+}
+.joinbutton:hover{
+background-color:#F73A15;
+}

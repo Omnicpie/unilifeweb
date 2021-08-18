@@ -1,0 +1,144 @@
+@charset "utf-8";
+.newpost{
+    width:100pt;
+    margin-left:5%;
+    border: 2px ridge var(--lighter-head);
+    height: 35pt;
+    overflow:hidden;
+    transition: linear 0.2s;
+}
+.postactive{
+    height:350pt;
+    width: 92%;
+}
+.postBut{
+    text-align:center;
+    cursor:pointer;
+    width: 100pt;
+    margin-left: 0;
+    display: inline-block;
+    height: 100%;
+    float: left;
+    margin-top:8pt;
+}
+.magic{
+  width:100%;
+}
+.magicopen{
+  width:100%;
+}
+.pubsel{
+    width: max-content;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+textarea{
+    display: block;
+    width: 68%;
+    height: 10em;
+    padding: 3pt;
+    box-sizing: border-box;
+    border: 0px;
+    border-bottom: 5px solid var(--accent-colour);
+    background-color: var(--lighter-head);
+    resize: none;
+    margin: auto;
+    margin-top:38pt;
+    color: var(--text-colour);
+}
+input[type=button], input[type=reset], input[type=submit] {
+    display:block;
+    background-color: var(--accent-colour);
+    border: none;
+    color: var(--text-colour);
+    padding: 18px 36px;
+    text-decoration: none;
+    font-weight:bold;
+    margin: 10pt auto;
+    cursor: pointer;
+}
+.editdiv, .deletediv{
+    color: var(--other-accent);
+}
+.editdiv{
+    width: 100%;
+    border-top: 1px dotted black;
+}
+.deletediv{
+    width:50%;
+    float:left;
+    margin-bottom:10pt;
+}
+.deletediv i{
+    display:block;
+    margin:auto;
+}
+.editlink, .deletelink{
+    font-size: 10pt;
+    display: block;
+    height: auto;
+    float: left;
+    padding: 0 4pt;
+    border: 2px dotted var(--lighter-head);
+}
+.type4 {
+    display: inline-block;
+    width: 18pt;
+    height: 18pt;
+    background: var(--background-colour);;
+    border: 2pt solid var(--header-colour);
+}
+.accordion {
+    color: var(--text-colour);
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    float:left;
+}
+    .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: var(--background-colour);
+    overflow: hidden;
+    color:var(--text-colour);
+}
+
+#mobilenav{
+        background-color:var(--lighter-head);
+        position:absolute;
+        z-index: 9999999;
+        text-align: center;
+        height: auto;
+        margin: 0pt -11.1%;
+}
+#navigationbutt{
+        background-color: var(--lighter-head);
+        font-size:14pt;
+        padding: 0 0.9%;
+        z-index:9999;
+        float: left;
+    }
+#mobpanel{
+        padding:0px;
+}
+#side{
+  background-color:var(--other-accent);
+  padding:5pt;
+  border-radius: 45%;
+  margin-right:5pt;
+}
+.groupbutt{
+    margin-left:5%;
+    height: 35pt;
+    border: 2px ridge var(--lighter-head);
+    display: block;
+    width: 100pt;
+    border-collapse: collapse;
+    margin-top: 5pt;
+    font-size:1em;
+    text-align:center;
+}

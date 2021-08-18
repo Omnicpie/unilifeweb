@@ -1,0 +1,6 @@
+Cookies are small pieces of text used to store information on web browsers. Cookies are used to store and receive identifiers and other information on computers, phones and other devices. Other technologies, including data we store on your web browser or device, identifiers associated with your device, and other software, are used for similar purposes. In this policy, we refer to all of these technologies as "cookies." 
+
+When you log into your UniLife account, we use cookies to store session data, which is used to keep you logged into the site. All cookies we use are strictly for site functionality, as an ananomised personal identifier which cannot be accessed by anyone, including third parties, as they are stored within your web browser.
+
+
+If you are concerned about the use of cookies. please contact a UniLife Admin
